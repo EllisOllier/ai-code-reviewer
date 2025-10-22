@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#analyze-button {
+  padding: 10px 15px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 5px;
+}
+
+#analyze-button:hover {
+  background-color: rgb(83, 136, 234);
+}
+
+#analyze-button:active {
+  background-color: rgb(68, 124, 227);
+}
